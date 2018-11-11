@@ -9,10 +9,15 @@
   http://www.imparareaprogrammare.it
 */
 
+
+
+// Implementa qui il tuo codice
 var one = 'Star';
 var two = 'Wars';
 
-// Implementa qui il tuo codice
+var three = one;
+one = two;
+two = three;
 
 console.log('one: '+one);
 console.log('two: '+two);
